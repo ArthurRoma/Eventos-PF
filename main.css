@@ -21,6 +21,11 @@ body{
     background-color:#483D8B;
 }
 
+/* botao sobre hover */
+#botao-sobre:hover{
+    text-shadow: 2px 2px 2px #1E90FF;
+}
+
 /* logo do site */
 #Logo{
     font-size:xx-large;
@@ -123,6 +128,39 @@ h1{
     border: solid 4px #1E90FF;
 }
 
+/* pagina sobre */
+.sobre{
+    background-image:url("imgs/sobrefundo.png") ;
+    background-repeat:no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    border-radius: 10%;
+    margin: 60px;
+    padding: 30px 150px 120px;
+    font-size: xx-large;
+    font-family:'Lucida Sans Unicode';
+    font-weight: bold;
+    text-shadow: 2px 1px 1px #1E90FF;
+}
 
+.h1-do-sobre{
+    font-size: 60px;
+    margin: auto;
+    padding-left: 420px;
+    font-family: cursive;
+    font-style: italic;
+    text-shadow: 1px 1px 1px rgb(70, 181, 70) ;
+
+}
+
+#botao-pag-inicial{
+    border-radius: 12%;
+    margin-left: 55px;
+    
+}
+
+#botao-pag-inicial:hover{
+    background-color:#1E90FF;
+}
 
 
