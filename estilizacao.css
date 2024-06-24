@@ -26,20 +26,22 @@
   }
   aside {
     
-    width: 180px;
+    width: 190px;
     background: #847f7f;
     padding: 5px 0px 60px 0px;
     position:absolute;
     left: -30;
     top: 0px;
-    height: 280%;
+    height: 100%;
     box-shadow: 0px 3px 5px #6d6d6d;
-    overflow: hidden;
     z-index: 99;
     font-size: 10px;
     font-family:sans-serif ;
     border-radius: 20px;
+    overflow-y:scroll;
   }
+
+  
   aside ul {
     list-style: none;
     width: 100%;
@@ -67,7 +69,7 @@
   article {
     background: #483D8B url(https://assets.materialup.com/uploads/d95ac945-ae5b-444c-a21e-2dab7348fcb5/preview.gif);
     width: 92%;
-    height: 270%;
+    height: 100%;
     margin-left: 7%;
     border-radius: 5px;
     box-shadow: 0px 2px 7px #6d6d6d;
@@ -81,6 +83,7 @@
   aside.keep.width {
       width: 200px;
   }
+
  
    /* */
    @-webkit-keyframes blinker {
@@ -112,7 +115,111 @@
   
 /* atleticas imagens */
 
+article img{
+  border-radius: 50%;
+  width: 30%;
+  margin-left: 350px;
+}
+
   #bisaoim{
     border: solid 4px red;
     border-radius: 50%;
+  }
+
+/* bisao */
+  #bisaoim2{
+    border: solid 4px red;
+   
+  }
+
+  /* campeiros */
+  #campeirosim{
+    border: solid 4px green;
+  }
+
+  /* touro */
+  #touroim{
+      border: solid 4px rgb(65, 17, 17);
+    }
+  /* bulldog */
+  #bulldogim{
+    border: solid 4px green;
+  }
+
+  /* medusa */
+  #medusaim{
+    border: solid 4px green;
+  }
+  /* patoloko */
+  #patoim{
+    border: solid 4px yellow;
+  }
+  /* anubis */
+  #anubisim{
+    border: solid 4px purple;}
+  /* hórus */
+  #horusim{
+    border:solid 4px rgb(102, 13, 13);
+  }
+  /* pantera */
+  #panteraim{
+    border:solid 4px yellow;
+  }
+  /* javali */
+  #javaim{
+    border:solid 4px yellow;
+  }
+  /* tazmaniacos */
+  #tazim{
+    border:solid 4px rgb(184, 94, 15);
+  }
+  /* ursao */
+  #ursaoim{
+    border: solid 4px purple;
+  }
+  /* lhama */
+  #lhamaim{
+    width:40%;
+    border: solid 3px blue;
+  }
+  /* abelhao */
+  #abelhaoim{
+    border:solid 4px yellow;
+  }
+  /* brutus */
+  #brutusim{
+    border:solid 4px white;
+  }
+  /* nordica */
+  #nordicaim{
+    border:solid 4px rgb(112, 221, 223);
+  }
+  /* poseidon */
+  #poseidonim{
+    border:solid 4px rgb(184, 94, 15);
+  }
+  /* popeye */
+  #popeyeim{
+    border: solid 4px red;
+  }
+  #rhinoim{
+    border:solid 4px rgb(112, 221, 223);
+  }
+  #tigresim{
+    border:solid 4px rgb(184, 94, 15);
+  }
+  #vikingim{
+    border: solid 4px rgb(184, 94, 15);
+  }
+  #lobaoim{
+    border: solid 4px rgb(112, 221, 223);
+  }
+
+  /* conteudo do article */
+  article h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
   }
