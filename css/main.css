@@ -1,0 +1,166 @@
+/* fundo total */
+body{
+    background-color: #483D8B;
+}
+/* informações cabeçalho: */
+.infor {
+    display: flex;
+    padding-left: 85%;
+}
+/* cabeçalho atleticas e datas: */
+.infor ul{
+    background-color:#1E90FF;
+}
+/* cabeçalho redondinho: */
+.infor nav{
+    border-radius: 90%;
+}
+/* cabeçalho com cor de fundo: */
+.container-fluid{
+    
+    background-color:#483D8B;
+}
+
+/* botao sobre hover */
+#botao-sobre:hover{
+    text-shadow: 2px 2px 2px #1E90FF;
+}
+
+/* logo do site */
+#Logo{
+    font-size:xx-large;
+    font-weight:bold;
+    font-family: cursive;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgb(131, 80, 201);
+}
+
+/* Título */
+h1{
+    position:-webkit-sticky;
+    padding: 30px 100px 30px 475px;
+}
+
+/* Separação dos eventos principais na página: */
+#copao1{
+    padding: 50px;
+    display: inline;
+  
+}
+
+#copao1 img{
+    width: 260px; 
+    height: 260px;
+    border-radius: 50%;
+}
+
+#copao2{
+   padding: 50px;
+   display: inline;
+
+}
+
+#copao2 img{
+    width: 260px; 
+    height: 260px;
+    border-radius: 50%;
+}
+
+#copao3 {
+    padding:50px;
+    display: inline;
+}
+
+#copao3 img{
+    width: 260px; 
+    height: 260px;
+    border-radius: 50%;
+}
+/* css para mobile: */
+@media screen and (max-width: 600px) {
+    .my-image {
+      max-width: 50%;
+    }
+  }
+
+/* setas com links: */
+
+#setas-links{
+    display: flex;
+    margin: 50px;
+    gap: 160px;
+    padding-left: 70px;
+    animation: float 1s ease-in-out infinite;
+    
+}
+/* animação da seta */
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#seta1{
+    margin-left: 24px;
+    animation: float 1.2s ease-in-out infinite;
+}
+
+#seta2{
+    animation: float 1.4s ease-in-out infinite;
+}
+
+/* hover da borda nas imagens */
+#copao1 img:hover{
+    border: solid 4px #1E90FF;
+}
+
+#copao2 img:hover{
+    border: solid 4px #1E90FF;
+}
+
+#copao3 img:hover{
+    border: solid 4px #1E90FF;
+}
+
+/* pagina sobre */
+.sobre{
+    background-image:url("/imgs/sobrefundo.png") ;
+    background-repeat:no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    border-radius: 10%;
+    margin: 60px;
+    padding: 30px 150px 120px;
+    font-size: xx-large;
+    font-family:'Lucida Sans Unicode';
+    font-weight: bold;
+    text-shadow: 2px 1px 1px #1E90FF;
+}
+
+.h1-do-sobre{
+    font-size: 60px;
+    margin: auto;
+    padding-left: 420px;
+    font-family: cursive;
+    font-style: italic;
+    text-shadow: 1px 1px 1px rgb(70, 181, 70) ;
+
+}
+
+#botao-pag-inicial{
+    border-radius: 12%;
+    margin-left: 55px;
+    
+}
+
+#botao-pag-inicial:hover{
+    background-color:#1E90FF;
+}
+
+
