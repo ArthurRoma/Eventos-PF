@@ -130,7 +130,7 @@ h1{
 
 /* pagina sobre */
 .sobre{
-    background-image:url("imgs/sobrefundo.png") ;
+    background-image:url("./imgs/sobrefundo.png") ;
     background-repeat:no-repeat;
     background-position-x: center;
     background-size: cover;
