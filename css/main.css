@@ -77,9 +77,13 @@ h1{
     border-radius: 50%;
 }
 /* css para mobile: */
-@media screen and (max-width: 600px) {
+@media (max-width: 768px) {
     .my-image {
       max-width: 50%;
+    }
+
+    body{
+        padding: 10px;
     }
   }
 
