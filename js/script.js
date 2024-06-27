@@ -3,5 +3,10 @@ function direcionar(){
 }
 
 function retornaAtletica(){
-    window.location = "/templates/atleticas.html";
+    return window.location.href = "../templates/atleticas.html";
 }
+
+function retornar(){
+    return window.location.href = "/index.html"
+}
+
