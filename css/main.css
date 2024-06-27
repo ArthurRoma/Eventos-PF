@@ -1,6 +1,8 @@
 /* fundo total */
 body{
+  
     background-color: #483D8B;
+    
 }
 /* informações cabeçalho: */
 .infor {
@@ -81,11 +83,44 @@ h1{
     .my-image {
       max-width: 50%;
     }
-
+    
     body{
-        padding: 10px;
+        margin-right: 60px;
+        min-width:max-content;
+        border: solid 2px red;
+        
+
     }
-  }
+
+    .infor{
+        border: solid 2px red;
+        margin-left: -80px;
+    } 
+        
+
+    .container-fluid{
+        margin-right: 170px;
+        border: solid 2px red;
+    }
+
+    #copao1{
+        padding: 15px;
+    }
+
+   body h1{
+    padding: 30px 50px 20px 425px;
+   }
+
+   #setas-links{
+    border: solid 2px red;
+    display:flex;
+    padding-left: 20px ;
+    margin: 25px;
+    gap:25px
+   }
+}
+
+    
 
 /* setas com links: */
 
