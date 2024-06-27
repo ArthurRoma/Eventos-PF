@@ -7,6 +7,6 @@ function retornaAtletica(){
 }
 
 function retornar(){
-    return window.location.href = "/index.html";
+    return window.location.href = "index.html";
 }
 
