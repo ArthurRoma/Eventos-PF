@@ -163,7 +163,7 @@ h1{
     background-color:#1E90FF;
 }
 
-@media (max-width: 720px) {
+@media (width: 700px) {
     
     /* imagens para mobile */
     #copao1{
