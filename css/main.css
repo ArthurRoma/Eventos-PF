@@ -80,43 +80,54 @@ h1{
 }
 /* css para mobile: */
 @media (max-width: 768px) {
-    .my-image {
-      max-width: 50%;
-    }
     
-    body{
-        margin-right: 60px;
-        min-width:max-content;
-        border: solid 2px red;
-        
-
-    }
-
-    .infor{
-        border: solid 2px red;
-        margin-left: -80px;
-    } 
-        
-
-    .container-fluid{
-        margin-right: 170px;
-        border: solid 2px red;
-    }
-
+    /* imagens para mobile */
     #copao1{
-        padding: 15px;
+        display: inline;
+        padding: 25px;
+    }
+
+    #copao2{
+        display: inline;
+        padding: 25px;
+    }
+
+    #copao3{
+        display: inline;
+        padding: 25px;
+    }
+
+    #copao1 img{
+        width: 180px;
+        height: 180px;
+    }
+
+    #copao2 img{
+        width: 180px;
+        height: 180px;
+    }
+
+    #copao3 img{
+        width: 180px;
+        height: 180px;
+    }
+    .infor{
+       
+    } 
+    .container-fluid{
+        
     }
 
    body h1{
-    padding: 30px 50px 20px 425px;
+    padding-left: 290px;
    }
 
    #setas-links{
-    border: solid 2px red;
-    display:flex;
-    padding-left: 20px ;
-    margin: 25px;
-    gap:25px
+   
+    display: block;
+    
+   
+   
    }
 }
 
