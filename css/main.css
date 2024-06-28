@@ -79,57 +79,7 @@ h1{
     border-radius: 50%;
 }
 /* css para mobile: */
-@media (max-width: 768px) {
-    
-    /* imagens para mobile */
-    #copao1{
-        display: inline;
-        padding: 25px;
-    }
 
-    #copao2{
-        display: inline;
-        padding: 25px;
-    }
-
-    #copao3{
-        display: inline;
-        padding: 25px;
-    }
-
-    #copao1 img{
-        width: 180px;
-        height: 180px;
-    }
-
-    #copao2 img{
-        width: 180px;
-        height: 180px;
-    }
-
-    #copao3 img{
-        width: 180px;
-        height: 180px;
-    }
-    .infor{
-    
-    } 
-    .container-fluid{
-        
-    }
-
-   body h1{
-    padding-left: 290px;
-   }
-
-   #setas-links{
-   
-    display: block;
-    
-   
-   
-   }
-}
 
     
 
@@ -211,6 +161,57 @@ h1{
 
 #botao-pag-inicial:hover{
     background-color:#1E90FF;
+}
+
+@media (max-width: 720px) {
+    
+    /* imagens para mobile */
+    #copao1{
+        display: inline;
+        padding: 25px;
+    }
+
+    #copao2{
+        display: inline;
+        padding: 25px;
+    }
+
+    #copao3{
+        display: inline;
+        padding: 25px;
+    }
+
+    #copao1 img{
+        width: 180px;
+        height: 180px;
+    }
+
+    #copao2 img{
+        width: 180px;
+        height: 180px;
+    }
+
+    #copao3 img{
+        width: 180px;
+        height: 180px;
+    }
+    
+    
+
+   body h1{
+    padding-left: 290px;
+   }
+
+   #setas-links{
+   
+    display: flex;
+    margin: 50px;
+    gap: 89px;
+    padding-left: 25px;
+    
+   
+   
+   }
 }
 
 
