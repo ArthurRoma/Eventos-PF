@@ -179,7 +179,7 @@ article img{
   }
   /* lhama */
   #lhamaim{
-    width:40%;
+    width:30%;
     border: solid 3px blue;
   }
   /* abelhao */
@@ -222,4 +222,10 @@ article img{
     font-size: xx-large;
     font-weight: bold;
     font-style: italic;
+  }
+
+  article h2{
+    font-family: cursive;
+    font-weight:bold;
+    text-align: center;
   }
