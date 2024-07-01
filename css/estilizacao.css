@@ -229,3 +229,28 @@ article img{
     font-weight:bold;
     text-align: center;
   }
+
+  /* estilização mobile */
+  @media (max-width: 450px){
+    body{
+      border: solid 2px red;
+    }
+
+    h1{
+      padding-left: 50%;
+    }
+
+    h2{
+      padding-left: 50%;
+    }
+
+    article img{
+      margin-left: 50%;
+      width: 50%;
+    }
+
+    #lhamaim{
+      width: 50%;
+    }
+
+  }

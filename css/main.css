@@ -169,7 +169,7 @@ h1{
     #copao1{
         display: inline;
         padding:15px;
-        padding-left: 80px;
+        padding-left: 50px;
     }
 
     #copao2{
@@ -184,33 +184,35 @@ h1{
     }
 
     #copao1 img{
-        width: 80px;
-        height: 80px;
+        width: 90px;
+        height: 90px;
     }
 
     #copao2 img{
-        width: 80px;
-        height: 80px;
+        width: 90px;
+        height: 90px;
     }
 
     #copao3 img{
-        width: 80px;
-        height: 80px;
+        width: 90px;
+        height: 90px;
     }
     
     
 
    body h1{
-    padding-left: 185px;
+    padding-left: 170px;
+    font-size: xx-large;
+    
    }
 
    #setas-links{
    
     display: flex;
     margin: 20px;
-    gap: 30px;
-    padding-top: 5px;
-    padding-left:60px;
+    gap: 35px;
+    padding-top: 50px;
+    padding-left:30px;
     
    
    
