@@ -1,8 +1,12 @@
+
 /* fundo total */
+
+
 body{
   
     background-color: #483D8B;
-    
+    background-image: url(/imgs/opacidadefundo.png);
+  background-size:cover;
 }
 /* informações cabeçalho: */
 .infor {
@@ -41,6 +45,8 @@ body{
 h1{
     position:-webkit-sticky;
     padding: 30px 100px 30px 475px;
+    color: #1E90FF ;
+    font-weight:900;
 }
 
 /* Separação dos eventos principais na página: */
