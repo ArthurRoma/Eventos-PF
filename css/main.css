@@ -1,3 +1,37 @@
+/* barra de busca */
+.search.active input {
+    border-radius: 5px 5px 0 0;
+}
+
+.search .list {
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    overflow-y: auto;
+    max-height: 280px;
+
+
+}
+
+.search.active .list{
+    padding: 10px 8px;
+    opacity: 1;
+    pointer-events: auto;
+
+}
+
+.list li{
+    list-style: none;
+    padding: 8px 12px;
+    display: none;
+    width: 100%;
+    cursor: default;
+    border-radius: 3px;
+}
+
+.search.active .list li{
+    display: block;
+}
 
 /* fundo total */
 
