@@ -84,6 +84,12 @@
     box-shadow: 0px 2px 7px #6d6d6d;
     padding: 80px;
   }
+
+  /* tentativa de centralizar */
+  article #centraliza{
+    
+    border:solid 10px;
+  }
   aside ul li:hover {
     background: #1E90FF;
     box-shadow: inset 0px 0px 77px #dedede;
@@ -127,7 +133,7 @@
 article img{
   border-radius: 50%;
   width: 30%;
-  margin-left: 350px;
+  margin-left: 35%;
 }
 
   #bisaoim{
