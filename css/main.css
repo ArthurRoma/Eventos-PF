@@ -259,5 +259,24 @@ h1{
    
    }
 }
+/* mobile */
+@media (max-width: 450px){
+    .sobre{
+        padding: 0;
+        margin: auto;
+        background-image: none;
+        color: aliceblue;
+        text-shadow: 1px 1px 1px rgb(69, 116, 244) ;
+    }
 
+    .h1-do-sobre{
+        margin: auto;
+        padding: 0;
+        font-size: 50px;
+        text-align: center;
+        
+
+
+    }
+}
 
