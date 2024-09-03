@@ -268,4 +268,11 @@ article img{
       width: 50%;
     }
 
+   article #centraliza{
+      padding-right: 10%;
+   }
+
+    article {
+      padding: 0;
+    }
   }
